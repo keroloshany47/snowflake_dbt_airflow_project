@@ -1,2 +1,33 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# ---------- Core Languages ----------
+# Python for Airflow DAGs
+*.py linguist-language=Python
+
+# SQL for dbt models, seeds, and Snowflake scripts
+*.sql linguist-language=SQL
+
+# YAML for dbt project configs
+*.yml linguist-language=YAML
+*.yaml linguist-language=YAML
+
+# ---------- Ignore / Vendored ----------
+# Ignore generated dbt artifacts and Airflow logs
+target/** linguist-vendored
+logs/** linguist-vendored
+
+# Ignore dbt internal packages (third-party)
+dbt_internal_packages/** linguist-vendored
+
+# Ignore snapshots (treated as generated history)
+snapshots/** linguist-vendored
+
+# Ignore images (screenshots / diagrams)
+images/** linguist-vendored
+
+# Ignore CSV raw data (not source code)
+Data_Files/** linguist-vendored
+seeds/** linguist-vendored
+
+# ---------- Documentation ----------
+README.md linguist-documentation
+*.md linguist-documentation
+docs/** linguist-documentation
