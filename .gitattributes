@@ -3,7 +3,7 @@
 *.py linguist-language=Python
 
 # SQL for dbt models, seeds, and Snowflake scripts
-*.sql linguist-language=SQL
+*.sql linguist-language=TSQL
 
 # YAML for dbt project configs
 *.yml linguist-language=YAML
