@@ -13,7 +13,7 @@ The goal is to showcase how to build a **production-ready ELT pipeline** with mo
 ---
 
 ##  Architecture  
-
+![Architecture](images/arch.png)
 1. **Data Source**: Raw CSV files (customers, orders, order_items, products).  
 2. **Snowflake**: Used as the centralized data warehouse (`finance_db`).  
 3. **dbt**:  
