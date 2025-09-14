@@ -131,7 +131,7 @@ Open Airflow UI → Trigger the DAG manually or set a schedule.
 
 ### dbt doc
 
-![dbt Lineage](images/dbt_docs.png)
+![dbt docs](images/dbt_docs.png)
 
 ---
 
