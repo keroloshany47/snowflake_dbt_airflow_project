@@ -1,6 +1,6 @@
 # Force SQL for model files
-models/** linguist-language=SQL
-*.sql linguist-language=SQL
+models/** linguist-language=TSQL
+*.sql linguist-language=TSQL
 
 # Force Python for DAG / scripts
 dag_script.py linguist-language=Python
