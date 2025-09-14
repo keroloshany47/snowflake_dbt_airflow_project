@@ -1,19 +1,2 @@
-# Force SQL for model files
-models/** linguist-language=TSQL
-*.sql linguist-language=TSQL
-
-# Force Python for DAG / scripts
-dag_script.py linguist-language=Python
-*.py linguist-language=Python
-
-# Treat images and exported artifacts as vendored (ignored by language stats)
-images/** linguist-vendored
-target/** linguist-vendored
-logs/** linguist-vendored
-
-# Ignore HTML files from language stats (if they make HTML show up)
-*.html linguist-vendored
-
-# Mark docs and README as documentation (optional)
-README.md linguist-documentation
-docs/** linguist-documentation
+# Auto detect text files and perform LF normalization
+* text=auto
