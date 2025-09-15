@@ -149,6 +149,6 @@ Open Airflow UI → Trigger the DAG manually or set a schedule.
 For any questions or collaboration opportunities, feel free to reach out:  
 
 - **Email**: keroloshani474@gmail.com  
-- **LinkedIn**: [linkedin.com/in/kerolos-hani-data](https://www.linkedin.com/in/kerolos-hani-data/)  
+- **LinkedIn**: [linkedin.com/in/kerolos-hani-data](https://www.linkedin.com/in/keroloshani-data/)  
 - **GitHub**: [github.com/keroloshany47](https://github.com/keroloshany47)  
 
