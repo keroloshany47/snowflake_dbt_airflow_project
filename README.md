@@ -30,28 +30,28 @@ The goal is to showcase how to build a **production-ready ELT pipeline** with mo
 
 ```
 
-├── Data\_Files/           # Raw CSVs for ingestion
-├── analyses/             # dbt analyses (optional queries)
+├── Data\_Files/                   # Raw CSVs for ingestion
+├── analyses/                      # dbt analyses (optional queries)
 ├── dbt\_internal\_packages/
-├── images/               # Project screenshots (DAG, dbt lineage, etc.)
-├── logs/                 # Airflow/dbt logs
-├── macros/               # dbt macros
-├── models/               # Core dbt models
-│   ├── marts/            # Business logic models
+├── images/                        # Project screenshots (DAG, dbt lineage, etc.)
+├── logs/                          # Airflow/dbt logs
+├── macros/                        # dbt macros
+├── models/                        # Core dbt models
+│   ├── marts/                     # Business logic models
 │   │   └── fact\_daily\_order\_revenue.sql
-│   └── staging/          # Staging/cleaning models
+│   └── staging/                   # Staging/cleaning models
 │       ├── stage\_customers.sql
 │       ├── stage\_orders.sql
 │       ├── stage\_order\_items.sql
 │       └── stage\_products.sql
-├── seeds/                # CSV seeds to load into dbt
-├── snapshots/            # dbt snapshots (history tracking)
-├── target/               # dbt compiled code + run artifacts
-├── tests/                # dbt tests
-├── dag\_script.py         # Airflow DAG (runs dbt run + dbt test)
-├── dbt\_project.yml       # dbt project configuration
-├── snowflake\_script.sql  # Snowflake schema setup
-└── README.md             # Project documentation
+├── seeds/                         # CSV seeds to load into dbt
+├── snapshots/                     # dbt snapshots (history tracking)
+├── target/                        # dbt compiled code + run artifacts
+├── tests/                         # dbt tests
+├── dag\_script.py                 # Airflow DAG (runs dbt run + dbt test)
+├── dbt\_project.yml               # dbt project configuration
+├── snowflake\_script.sql          # Snowflake schema setup
+└── README.md                      # Project documentation
 
 ````
 
