@@ -12,7 +12,7 @@ default_args = {
 }
 
 # DBT project directory
-DBT_PROJECT_DIR = "/home/kerolos-hani/DBT_Core/Airflow_DBT_Project/airflow_dbt_snowflake_project"
+DBT_PROJECT_DIR = "/home/kerolos-hani/DBT_Core/Airflow_DBT_Project/airflow_dbt_snowflake_project" # u will change this directry 
 
 # Define DAG
 with DAG(
