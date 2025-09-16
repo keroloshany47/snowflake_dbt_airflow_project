@@ -8,7 +8,7 @@ This project demonstrates a **modern data engineering pipeline** built with:
 
 The pipeline ingests raw CSV files, loads them into Snowflake, transforms the data using **dbt models**, and schedules the execution using **Airflow DAGs**.  
 
-The goal is to showcase how to build a **production-ready ELT pipeline** with modular, scalable, and testable components.  
+The goal is to showcase how to build a **production-ready ELT pipeline** with modular, scalable, and testable components. 
 
 ---
 
@@ -123,13 +123,13 @@ Open Airflow UI → Trigger the DAG manually or set a schedule.
 
 ---
 
-##  DAG & dbt doc
+##  DAG & dbt Docs
 
 ### Airflow DAG
 
 ![Airflow DAG](images/airflow.png)
 
-### dbt doc
+### dbt Docs
 
 ![dbt docs](images/dbt_docs.png)
 
